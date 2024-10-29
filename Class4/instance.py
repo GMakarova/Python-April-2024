@@ -9,7 +9,7 @@ region = 'us-east-2'
 ec2 = boto3.client('ec2', region_name=region)
 
 # List of EC2 instance IDs to manage
-INSTANCE_IDS = ['i-0db01b047f5170199', 'i-00d63618e2c481272']  # Replace with your actual EC2 instance IDs
+INSTANCE_IDS = ['i-0eda8c5462c889f3a', 'i-04fc7737d7985cdb5']  # Replace with your actual EC2 instance IDs
 
 def start_instances():
     """Starts the specified EC2 instances."""
